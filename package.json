@@ -1,0 +1,27 @@
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PdrCarvalho/npm-init.git",
+  "author": "carvalho <carvalho.pedro.cardoso@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "build": "sucrase ./src -d ./dist --transforms imports",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsontoxml": "^1.0.1",
+    "mongoose": "^5.10.5",
+    "sucrase": "^3.12.1",
+    "yup": "^0.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
