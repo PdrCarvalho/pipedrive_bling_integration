@@ -1,8 +1,8 @@
 {
-  "name": "npm-init",
+  "name": "pipedrive_bling_integration",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/PdrCarvalho/npm-init.git",
+  "repository": "https://github.com/PdrCarvalho/pipedrive_bling_integration",
   "author": "carvalho <carvalho.pedro.cardoso@gmail.com>",
   "license": "MIT",
   "scripts": {
